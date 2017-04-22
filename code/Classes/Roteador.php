@@ -131,6 +131,11 @@
 						TelegramConnect::sendMessage($chat_id, $texto);
 						break;
 
+					case 'romulomendonca':
+						$texto = "GALERA ME DEIXEM EM PAZ...";
+
+						TelegramConnect::sendMessage($chat_id, $texto);
+						break;
 
 					/*Comandos de viagem*/
 					case 'ida':
